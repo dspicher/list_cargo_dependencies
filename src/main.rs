@@ -25,6 +25,6 @@ fn main() {
         println!("  Version: {}", p.version);
         println!("  Website: https://crates.io/crates/{}", p.name);
         println!("  License: {}", p.license.unwrap_or_else(|| "n/a".into()));
-        println!("");
+        println!();
     }
 }
